@@ -23,7 +23,7 @@
 
 <p align="center">
 <img width="426" height="240" alt="비교" src="https://github.com/user-attachments/assets/86bd3c61-48a5-4fb1-abe5-6a16ff1faf90" />
-<sub><b><br> 좌 - 개발 툴 사용을 통한 검증(약 18초) / 우 - 직접 플레이하여 검증(약 31초) </b></sub>
+<sub><b><br> 좌 - 개발 툴 사용을 통한 검증(약 18초) / 우 - 직접 플레이하여 검증(약 31초) </b></sub> </p>
 
 
 | 필요 정보 | 내용 |
@@ -42,9 +42,9 @@ World 전체의 퍼즐 관계는 World Subsystem에서 관리
 
 <br>
 <p align="center">
-<img width="545" height="466" alt="image" src="https://github.com/user-attachments/assets/a1997a40-e0d8-4955-8aa9-4bff53539960" />
+<img width="545" height="466" alt="image" src="https://github.com/user-attachments/assets/a1997a40-e0d8-4955-8aa9-4bff53539960" /> </p>
 
-현재 World에 존재하는 PuzzleConditionSource를 가진 퍼즐을 일괄 수집하고, 입력·결과 참조를 기반으로 관계 그래프를 생성 관리했습니다.
+현재 World에 존재하는 퍼즐조건객체를 일괄 수집하고, 입력·결과 참조를 기반으로 관계 그래프를 생성 관리했습니다.
 TSet을 사용하여 중복 방문을 제거하고, 수집된 노드를 실행 깊이에 따라 Wave로 구성해 실제 진행 순서를 유지합니다.
 
 ```cpp
