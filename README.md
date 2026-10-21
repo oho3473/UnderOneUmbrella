@@ -28,7 +28,7 @@
 
 | 필요 정보 | 내용 |
 | --- | --- |
-| - 현재 조건이 만족됐는가 <br />- 어떤 입력 조건을 사용하는가 <br />- 디버깅 입력을 어떻게 처리하는가 | 공통 정보를 바탕으로 서로 다른 퍼즐들을 동일하게 처리할 수 있도록 PuzzleConditionSource 컴포넌트로 구성 | 
+| - 조건 만족 판단 <br />- 어떤 객체를 입력 조건으로 사용 판정 <br />- 디버깅 입력을 어떻게 처리하는가 | 공통 정보를 바탕으로 서로 다른 퍼즐들을 동일하게 처리할 수 있도록 PuzzleConditionSource 컴포넌트로 구성 | 
 
 | 공개 코드 | 역할 |
 |---|---|
@@ -41,6 +41,7 @@
 World 전체의 퍼즐 관계는 World Subsystem에서 관리
 
 <br>
+<p align="center">
 <img width="545" height="466" alt="image" src="https://github.com/user-attachments/assets/a1997a40-e0d8-4955-8aa9-4bff53539960" />
 
 현재 World에 존재하는 PuzzleConditionSource를 가진 퍼즐을 일괄 수집하고, 입력·결과 참조를 기반으로 관계 그래프를 생성 관리했습니다.
