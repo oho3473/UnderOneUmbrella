@@ -22,7 +22,7 @@
 ### 1. 퍼즐 관계 파악 및 재현 기능
 
 <p align="center">
-<img width="426" height="240" alt="비교" src="https://github.com/user-attachments/assets/86bd3c61-48a5-4fb1-abe5-6a16ff1faf90" />
+<img width="850" alt="비교" src="https://github.com/user-attachments/assets/86bd3c61-48a5-4fb1-abe5-6a16ff1faf90" />
 <sub><b><br> 좌 - 개발 툴 사용을 통한 검증(약 18초) / 우 - 직접 플레이하여 검증(약 31초) </b></sub> </p>
 
 
